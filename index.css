@@ -1,0 +1,174 @@
+@media (min-width: 1024px) {
+    body{
+        margin: 0;
+        padding: 80px 150px;
+        font-family: Poppins, Arial, Helvetica, sans-serif;
+        font-size: 15px;
+        font-weight: 200;
+        color: hsl(229, 6%, 66%);
+        background-color: hsl(0, 0%, 98%);
+    }
+    
+    .title-section{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .card-title, .subtitle{
+        text-align: center;
+        width: 45%;
+    }
+    
+    .card-title p{
+        margin: 0;
+        color: hsl(229, 6%, 66%);
+        font-weight: 200;
+        font-size: 35px;
+    }
+    
+    .card-title span{
+        color: hsl(234, 12%, 34%);
+        font-weight: 600;
+    }
+    
+    .subtitle p{
+        font-weight: 400;
+    }
+    
+    main{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        column-gap: 30px;
+        margin-top: 50px;
+    }
+    
+    .supervisor-card, .TB-card, .karma-card, .calculator-card{
+        width: 300px;
+        padding: 30px;
+        border-top: solid;
+        border-top-width: 5px;
+        border-top-color: hsl(180, 62%, 55%);
+        border-radius: 8px;
+        box-shadow: rgba(0, 0, 0, 0.2) 0px 15px 15px 2px;
+    }
+    
+    .TB-card{
+        border-top-color: hsl(0, 78%, 62%)
+    }
+    
+    .karma-card{
+        border-top-color: hsl(34, 97%, 64%)
+    }
+    
+    .calculator-card{
+        border-top-color: hsl(212, 86%, 64%);
+    }
+    
+    .supervisor-card h2, .TB-card h2, .karma-card h2, .calculator-card h2{
+        color: hsl(234, 12%, 34%);
+        font-weight: 600;
+        margin: 0;
+    }
+    
+    .supervisor-card-img, .TB-card-img, .karma-card-img, .calculator-card-img{
+        display: flex;
+        justify-content: end;
+        margin-top: 40px;
+    }
+    
+    .center-card-section{
+        display: flex;
+        flex-direction: column;
+        row-gap: 30px;
+    }
+}
+
+@media (max-width: 425px) and (min-width: 375px) {
+    body{
+        margin: 0;
+        padding: 100px 30px;
+        font-family: Poppins, Arial, Helvetica, sans-serif;
+        font-size: 15px;
+        font-weight: 200;
+        color: hsl(229, 6%, 66%);
+        background-color: hsl(0, 0%, 98%);
+    }
+
+    .title-section{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .card-title, .subtitle{
+        text-align: center;
+    }
+    
+    .card-title p{
+        margin: 0;
+        color: hsl(229, 6%, 66%);
+        font-weight: 400;
+        font-size: 25px;
+    }
+    
+    .card-title span{
+        color: hsl(234, 12%, 34%);
+        font-weight: 600;
+    }
+    
+    .subtitle p{
+        font-weight: 400;
+    }
+    
+    main{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        row-gap: 50px;
+        margin-top: 50px;
+    }
+    
+    .supervisor-card, .TB-card, .karma-card, .calculator-card{
+        width: 260px;
+        padding: 30px;
+        border-top: solid;
+        border-top-width: 5px;
+        border-top-color: hsl(180, 62%, 55%);
+        border-radius: 8px;
+        box-shadow: rgba(0, 0, 0, 0.2) 0px 15px 15px 2px;
+    }
+    
+    .TB-card{
+        border-top-color: hsl(0, 78%, 62%)
+    }
+    
+    .karma-card{
+        border-top-color: hsl(34, 97%, 64%)
+    }
+    
+    .calculator-card{
+        border-top-color: hsl(212, 86%, 64%);
+    }
+    
+    .supervisor-card h2, .TB-card h2, .karma-card h2, .calculator-card h2{
+        color: hsl(234, 12%, 34%);
+        font-weight: 600;
+        margin: 0;
+    }
+    
+    .supervisor-card-img, .TB-card-img, .karma-card-img, .calculator-card-img{
+        display: flex;
+        justify-content: end;
+        margin-top: 40px;
+    }
+    
+    .center-card-section{
+        display: flex;
+        flex-direction: column;
+        row-gap: 30px;
+    }
+}
